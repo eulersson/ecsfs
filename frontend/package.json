@@ -1,0 +1,15 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend mocked up.",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Ramon Blanquer <blanquer.ramon@gmail.com> (http://www.ramonblanquer.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}

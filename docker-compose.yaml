@@ -1,0 +1,26 @@
+version: "3"
+services:
+  frontend:
+    restart: always
+    build: ./frontend
+    networks:
+      ecsfs:
+        aliases:
+          - ecsfs-frontend.local
+  backend:
+    restart: always
+    build: ./backend
+    networks:
+      ecsfs:
+        aliases:
+          - ecsfs-backend.local
+  nginx:
+    restart: always
+    build: ./nginx
+    ports:
+      - "80:80"
+    networks:
+      ecsfs:
+
+networks:
+  ecsfs:
