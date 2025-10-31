@@ -7,8 +7,8 @@
 #
 # Two articles have been written explaining what this stack is for:
 #
-# - <Link Pt. 1>
-# - <Link Pt. 2>
+# - https://medium.com/@eulersson/microservices-on-fargate-part1-f26a318827a8
+# - https://medium.com/@eulersson/microservices-on-fargate-part2-f29c6d4d708f
 #
 # How to deploy this YAML template
 # --------------------------------
