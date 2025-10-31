@@ -456,7 +456,7 @@ Resources:
       ExecutionRoleArn: !Ref ExecutionRole
       ContainerDefinitions:
         - Name: ecsfs-backend-container
-          Image: docwhite/ecsfs-backend
+          Image: eulersson/ecsfs-backend
           PortMappings:
             - ContainerPort: 5000
           LogConfiguration:
@@ -479,7 +479,7 @@ Resources:
       ExecutionRoleArn: !Ref ExecutionRole
       ContainerDefinitions:
         - Name: ecsfs-frontend-container
-          Image: docwhite/ecsfs-frontend
+          Image: eulersson/ecsfs-frontend
           PortMappings:
             - ContainerPort: 3000
           LogConfiguration:
@@ -502,7 +502,7 @@ Resources:
       ExecutionRoleArn: !Ref ExecutionRole 
       ContainerDefinitions:
         - Name: ecsfs-nginx-container
-          Image: docwhite/ecsfs-nginx
+          Image: eulersson/ecsfs-nginx
           PortMappings:
             - ContainerPort: 80
           LogConfiguration:
